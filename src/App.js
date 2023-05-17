@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 import React, {Component} from 'react'
 import { BrowserRouter as Router, Route, Switch} from "react-router-dom";
 import Home from "./components/Home"
@@ -22,3 +23,6 @@ class App extends Component {
 }
 
 export default App;
+=======
+
+>>>>>>> Stashed changes
