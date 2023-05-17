@@ -33,86 +33,60 @@ const Home = () => {
     <div className="container-fluid p-0">
       <div className="row g-0">
         <div className="col-lg-4 col-sm-6">
-          <a className="portfolio-box" href="https://elianebettocchi.github.io/incorporais/" target="_blank" title="Incorporeal Ludonarratives">
-            <img className="img-fluid" src="portfolio/thumbnails/1.jpg" alt="Incorporeal Ludonarratives" />
+          <a className="portfolio-box" href="" target="_blank" title="">
+            <img className="img-fluid" src="portfolio/thumbnails/1.jpg" alt="" />
             <div className="portfolio-box-caption">
-              <div className="project-category text-white-50">Illustration, Game, Graphic &amp; Web Design</div>
-              <div className="project-name">Incorporeal Ludonarratives</div>
+              <div className="project-category text-white-50"></div>
+              <div className="project-name"></div>
             </div>
           </a>
         </div>
         <div className="col-lg-4 col-sm-6">
-          <a className="portfolio-box" href="https://www.instagram.com/coletivodescolonia/" target="_blank" rel="noopener noreferrer" title="Decolonial Collective">
-            <img className="img-fluid" src="portfolio/thumbnails/2.jpg" alt="Decolonial Collective" />
+          <a className="portfolio-box" href="" target="_blank" rel="noopener noreferrer" title="">
+            <img className="img-fluid" src="portfolio/thumbnails/2.jpg" alt="" />
             <div className="portfolio-box-caption">
-              <div className="project-category text-white-50">Teaching</div>
-              <div className="project-name">Decolonial Collective</div>
+              <div className="project-category text-white-50"></div>
+              <div className="project-name"></div>
             </div>
           </a>
         </div>
         <div className="col-lg-4 col-sm-6">
-          <a className="portfolio-box" href="https://www.google.com/url?q=https://drive.google.com/file/d/17r04moN5SNtrMTY2WN4XgyGUWaiptjqm/view?usp%3Dshare_link&sa=D&source=editors&ust=1674786484952749&usg=AOvVaw300WqFrd0C8z47ScwetaXQ" target="_blank" title="Terra Nova">
-            <img className="img-fluid" src="portfolio/thumbnails/3.jpg" alt="Terra Nova" />
+          <a className="portfolio-box" href="" target="_blank" title="">
+            <img className="img-fluid" src="portfolio/thumbnails/3.jpg" alt="" />
             <div className="portfolio-box-caption">
-              <div className="project-category text-white-50">Research</div>
-              <div className="project-name">Terra Nova Minecraft Resource Pack</div>
+              <div className="project-category text-white-50"></div>
+              <div className="project-name"></div>
             </div>
           </a>
         </div>
         <div className="col-lg-4 col-sm-6">
-          <a className="portfolio-box" href="https://elianebettocchi.github.io/brdrums/" target="_blank" title="Brazilian Drums">
-            <img className="img-fluid" src="portfolio/thumbnails/7.jpg" alt="Brazilian Drums" />
+          <a className="portfolio-box" href="" target="_blank" title="">
+            <img className="img-fluid" src="portfolio/thumbnails/4.jpg" alt="" />
             <div className="portfolio-box-caption">
-              <div className="project-category text-white-50">Drum Kit with JavaScrpit</div>
-              <div className="project-name">Brazilian Drums</div>
+              <div className="project-category text-white-50"></div>
+              <div className="project-name"></div>
             </div>
           </a>
         </div>
         <div className="col-lg-4 col-sm-6">
-          <a className="portfolio-box" href="https://www.instagram.com/designeculturadosjogosonline/" target="_blank" title="Concept Art classes">
-            <img className="img-fluid" src="portfolio/thumbnails/5.jpg" alt="Concept Art classes" />
+          <a className="portfolio-box" href="" target="_blank" title="">
+            <img className="img-fluid" src="portfolio/thumbnails/5.jpg" alt="" />
             <div className="portfolio-box-caption">
-              <div className="project-category text-white-50">Teaching</div>
-              <div className="project-name">Concept Art classes</div>
+              <div className="project-category text-white-50"></div>
+              <div className="project-name"></div>
             </div>
           </a>
         </div>
         <div className="col-lg-4 col-sm-6">
-          <a className="portfolio-box" href="https://elianebettocchi.github.io/siara/" target="_blank" title="Siara">
-            <img className="img-fluid" src="portfolio/thumbnails/6.jpg" alt="Siara" />
+          <a className="portfolio-box" href="" target="_blank" title="">
+            <img className="img-fluid" src="portfolio/thumbnails/6.jpg" alt="" />
             <div className="portfolio-box-caption p-3">
-              <div className="project-category text-white-50">Research</div>
-              <div className="project-name">Siara: poetic-critic design for a female character of League of Legends</div>
+              <div className="project-category text-white-50"></div>
+              <div className="project-name"></div>
             </div>
           </a>
         </div>
-        <div className="col-lg-4 col-sm-6">
-          <a className="portfolio-box" href="https://elianebettocchi.github.io/petstore/" target="_blank" title="Pet Love">
-            <img className="img-fluid" src="portfolio/thumbnails/9.jpg" alt="Pet Love" />
-            <div className="portfolio-box-caption p-3">
-              <div className="project-category text-white-50">Web Design</div>
-              <div className="project-name">Pet Love: project for a fictional pet shop</div>
-            </div>
-          </a>
-        </div>
-        <div className="col-lg-4 col-sm-6">
-          <a className="portfolio-box" href="https://drive.google.com/drive/folders/1DVShqmK2TVRokmDtefn52fbJvCk1JOWI?usp=share_link" target="_blank" title="Decolonia Game Design Course">
-            <img className="img-fluid" src="portfolio/thumbnails/8.jpg" alt="Decolonia Game Design Course" />
-            <div className="portfolio-box-caption p-3">
-              <div className="project-category text-white-50">Teaching</div>
-              <div className="project-name">Decolonial Game Design Honors Course at UC</div>
-            </div>
-          </a>
-        </div>
-        <div className="col-lg-4 col-sm-6">
-          <a className="portfolio-box" href="https://elianebettocchi.github.io/funfacts/" target="_blank" title="BEFacts">
-            <img className="img-fluid" src="portfolio/thumbnails/10.jpg" alt="BEFacts" />
-            <div className="portfolio-box-caption p-3">
-              <div className="project-category text-white-50">Web Development</div>
-              <div className="project-name">BRFacts: fun facts using React</div>
-            </div>
-          </a>
-        </div>
+        
       </div>
     </div>
   </div>
@@ -121,11 +95,10 @@ const Home = () => {
     <div className="container px-4 px-lg-5">
       <div className="row gx-4 gx-lg-5 justify-content-center">
         <div className="col-12 text-center">
-          <h2 className="mt-0">Contact</h2>
+          <h2 className="mt-0"></h2>
           <hr className="divider" />
-          <p className="text-muted mb-5 text-center">I am open to work! Here is my <a href="https://drive.google.com/file/d/1-2h1OPynDkkXCQiPJFSauXFPy8tDLMIk/view?usp=share_link" target="_blank" rel="noopener noreferrer">RESUME</a>.</p>
-          <div><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSciq-SO9TzYR2vWEewp0qzOWnzKR0m5QW1ffLJwC9famiw5HQ/viewform?embedded=true" width="100%" height={820} frameBorder={0} marginHeight={0} marginWidth={0} scrolling="no">Loading…</iframe>
-          </div>
+          <p className="text-muted mb-5 text-center"></p>
+          
         </div>
       </div>
     </div>
@@ -133,8 +106,8 @@ const Home = () => {
   {/* comment */}
   {/* Footer*/}
   <footer className="bg-light py-5">
-    <div className="container px-4 px-lg-5"><div className="small text-center text-muted">Copyright © 2023 - <a href="#">Eliane Bettocchi</a>
-        <a href="https://www.linkedin.com/in/lilith/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BLV7adt43SzOdqzrqfb67Uw%3D%3D" target="_blank" rel="noopener noreferrer"><i className="bi bi-linkedin" /></a>
+    <div className="container px-4 px-lg-5">
+    <div className="small text-center text-muted">
       </div></div>
   </footer>
 </div>
