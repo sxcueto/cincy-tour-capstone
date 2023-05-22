@@ -1,5 +1,5 @@
 import React from 'react'
-//New comment
+
 const Home = () => {
   return (
     <div>
@@ -126,7 +126,9 @@ const Home = () => {
           <span className="visually-hidden">Next</span>
         </button>
       </div>
-
+    </div>
+  </section>
+  {/* comment */}
   {/* Footer*/}
   <footer>
     <div className="container p-4">
