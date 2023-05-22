@@ -1,27 +1,27 @@
 import React from 'react'
-//New comment
+
 const Home = () => {
   return (
     <div>
-   <div>
-  
+  {/* another comment */}
   {/* Navigation*/}
-  <nav className="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
-    <div className="container px-4 px-lg-5">
+  <nav className="navbar navbar-expand-lg navbar-dark fixed-top p-3" id="mainNav">
+    <div className="container-fluid">
       <button className="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span className="navbar-toggler-icon" /></button>
-      <a href="#page-top"><img width="40px" src="favicon.ico" alt /></a>
       <div className="collapse navbar-collapse" id="navbarResponsive">
-        <a className="navbar-brand" href="#page-top">CINCY TOURS</a>
-        <ul className="navbar-nav ms-auto my-2 my-lg-0">
-          <li className="nav-item"><a className="nav-link" href="#about">CONTACT</a></li>
-          <li className="nav-item"><a className="nav-link" href="#services">ABOUT</a></li>
-        </ul>
-      </div>
+      <div className="container-fluid">
+      <div className="row">
+        <div className="col-lg-4"><a className="navbar-brand" href="#page-top"><h2><b>CINCY TOURS</b></h2></a></div>
+         <div className="col-lg-3"><a className="nav-link" href="#about"><b>CONTACT</b></a></div>
+          <div className="col-lg-3"><a className="nav-link" href="#services"><b>ABOUT</b></a></div>
+          <div className="col-lg-1"><i class="bi bi-search"></i></div>
+          <div className="col-lg-1"><i class="bi bi-brightness-high"></i></div>
+      </div></div></div>
     </div>
   </nav>
   {/* Masthead*/}
-  <header className="masthead">
-    <div className="container px-4 px-lg-5 h-100">
+  <header className="masthead ">
+    <div className="container-fluid px-4 px-lg-5 h-100">
       <div className="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center" id="masthead">
         <div className="col-lg-8 align-self-end">
         </div>
@@ -34,55 +34,55 @@ const Home = () => {
       <div className="row g-0">
         <div className="col-lg-4 col-sm-6">
           <a className="portfolio-box" href="" target="_blank" title="">
-            <img className="img-fluid" src="portfolio/thumbnails/1.jpg" alt="" />
+            <img className="img-fluid" src="https://drive.google.com/uc?export=view&id=1KI7zlpBG8AX7tEhREiB8AQjttZjNQr3c" alt="arts and music" />
             <div className="portfolio-box-caption">
-              <div className="project-category text-white-50"></div>
-              <div className="project-name"></div>
+              <div className="project-category text-white-50">ARTS & MUSIC:</div>
+              <div className="project-name">museums, art galleries, concert halls, theatre, shows</div>
             </div>
           </a>
         </div>
         <div className="col-lg-4 col-sm-6">
           <a className="portfolio-box" href="" target="_blank" rel="noopener noreferrer" title="">
-            <img className="img-fluid" src="portfolio/thumbnails/2.jpg" alt="" />
+            <img className="img-fluid" src="https://drive.google.com/uc?export=view&id=1h4OQXJAqD55vBM7dbI_0RIBfU4V7eF2C" alt="family fun" />
             <div className="portfolio-box-caption">
-              <div className="project-category text-white-50"></div>
-              <div className="project-name"></div>
+              <div className="project-category text-white-50">FAMILY FUN:</div>
+              <div className="project-name">parks, games, entertainment for children</div>
             </div>
           </a>
         </div>
         <div className="col-lg-4 col-sm-6">
           <a className="portfolio-box" href="" target="_blank" title="">
-            <img className="img-fluid" src="portfolio/thumbnails/3.jpg" alt="" />
+            <img className="img-fluid" src="https://drive.google.com/uc?export=view&id=1SYjAps7nUzu7ibU_PmNDso-hjaEuuAou" alt="food and drink" />
             <div className="portfolio-box-caption">
-              <div className="project-category text-white-50"></div>
-              <div className="project-name"></div>
+              <div className="project-category text-white-50">FOOD & DRINK:</div>
+              <div className="project-name">restaurants, markets, breweries, pubs, night life</div>
             </div>
           </a>
         </div>
         <div className="col-lg-4 col-sm-6">
           <a className="portfolio-box" href="" target="_blank" title="">
-            <img className="img-fluid" src="portfolio/thumbnails/4.jpg" alt="" />
+            <img className="img-fluid" src="https://drive.google.com/uc?export=view&id=1rBc_lu75ywji4jpJ1Nr_sDC7Oe0rxlmi" alt="history and heritage" />
             <div className="portfolio-box-caption">
-              <div className="project-category text-white-50"></div>
-              <div className="project-name"></div>
+              <div className="project-category text-white-50">HERITAGE & HISTORY:</div>
+              <div className="project-name">museums, monuments, houses, villages</div>
             </div>
           </a>
         </div>
         <div className="col-lg-4 col-sm-6">
           <a className="portfolio-box" href="" target="_blank" title="">
-            <img className="img-fluid" src="portfolio/thumbnails/5.jpg" alt="" />
+           <a href=""><img className="img-fluid" src="https://drive.google.com/uc?export=view&id=14GSBgAMF6AZY2iMd-hrMBYirkird01T3" alt="sports" /></a> 
             <div className="portfolio-box-caption">
-              <div className="project-category text-white-50"></div>
-              <div className="project-name"></div>
+              <div className="project-category text-white-50">SPORTS:</div>
+              <div className="project-name">games, competions, recreation</div>
             </div>
           </a>
         </div>
         <div className="col-lg-4 col-sm-6">
           <a className="portfolio-box" href="" target="_blank" title="">
-            <img className="img-fluid" src="portfolio/thumbnails/6.jpg" alt="" />
+            <img className="img-fluid" src="https://drive.google.com/uc?export=view&id=1yAM5l1O76fwtjDluHP-lNW16ky8Jtxqu" alt="outdoors" />
             <div className="portfolio-box-caption p-3">
-              <div className="project-category text-white-50"></div>
-              <div className="project-name"></div>
+              <div className="project-category text-white-50">OUTDOORS:</div>
+              <div className="project-name">zoo and botanical garden, parks, swimming, sightseeing</div>
             </div>
           </a>
         </div>
@@ -90,29 +90,69 @@ const Home = () => {
       </div>
     </div>
   </div>
-  {/* Contact*/}
-  <section className="page-section" id="contact">
-    <div className="container px-4 px-lg-5">
-      <div className="row gx-4 gx-lg-5 justify-content-center">
-        <div className="col-12 text-center">
-          <h2 className="mt-0"></h2>
-          <hr className="divider" />
-          <p className="text-muted mb-5 text-center"></p>
-          
+
+      <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="carousel">
+        <div className="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to={0} className="active" aria-current="true" aria-label="Slide 1" />
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to={1} aria-label="Slide 2" />
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to={2} aria-label="Slide 3" />
         </div>
+        <div className="carousel-inner">
+          <div className="carousel-item active">
+            <img src="https://drive.google.com/uc?export=view&id=1cs4ypfp8uS5oDm_MBwEhsg6oKGsrQS7I" className="d-block w-100" alt="highlights" />
+            <div className="carousel-caption d-none d-md-block">
+            </div>
+          </div>
+          <div className="carousel-item">
+            <img src="https://drive.google.com/uc?export=view&id=1gHLBmuq_94VUm_29IrBg7RxONXKiENV6" className="d-block w-100" alt="highlights" />
+            <div className="carousel-caption d-none d-md-block">
+              <a href="https://www.theabercrumbiegroup.com/blackmusic" target="_blank" rel="noopener noreferrer"><button className='button'>VISIT WEBSITE</button></a>
+            </div>
+          </div>
+
+          <div className="carousel-item">
+            <img src="https://drive.google.com/uc?export=view&id=1jr18bKnKTxrM0XZrnwicjPVS5jEWHEkm" className="d-block w-100" alt="highlights" />
+            <div className="carousel-caption d-none d-md-block">
+            <a href="https://www.artonvinecincy.com/" target="_blank" rel="noopener noreferrer"><button className='button'>VISIT WEBSITE</button></a>
+            </div>
+          </div>
+        </div>
+        <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span className="carousel-control-prev-icon" aria-hidden="true" />
+          <span className="visually-hidden">Previous</span>
+        </button>
+        <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span className="carousel-control-next-icon" aria-hidden="true" />
+          <span className="visually-hidden">Next</span>
+        </button>
       </div>
     </div>
   </section>
   {/* comment */}
   {/* Footer*/}
-  <footer className="bg-light py-5">
-    <div className="container px-4 px-lg-5">
-    <div className="small text-center text-muted">
+  <footer>
+    <div className="container p-4">
+    <div className="row">
+    <div className="col-4 small text-muted">
+    CINCY TOURS <br />
+    555 Bubble St <br />
+    Blue Ash 45222 <br />
+    513-555-5555
+      </div>
+      <div className="col-4 small text-muted">
+      CONTACT <br />
+      ABOUT <br />
+      SITEMAP <br />
+      ACCESSIBILITY <br />
+      </div>
+      <div className="col-4 small text-muted">
+      Made by KableTeam <br />
+      © 2023
+      </div>  
       </div></div>
   </footer>
 </div>
 
-    </div>
   )
 }
 
