@@ -1,9 +1,11 @@
-import React from 'react'
-//New comment
+import React from 'react';
+import Carousel  from 'react-bootstrap/Carousel';
+import Button from 'react-bootstrap/Button';
+
+
 const Home = () => {
   return (
     <div>
-  {/* another comment */}
   {/* Navigation*/}
   <nav className="navbar navbar-expand-lg navbar-dark fixed-top p-3" id="mainNav">
     <div className="container-fluid">
@@ -14,8 +16,8 @@ const Home = () => {
         <div className="col-lg-4"><a className="navbar-brand" href="#page-top"><h2><b>CINCY TOURS</b></h2></a></div>
          <div className="col-lg-3"><a className="nav-link" href="#about"><b>CONTACT</b></a></div>
           <div className="col-lg-3"><a className="nav-link" href="#services"><b>ABOUT</b></a></div>
-          <div className="col-lg-1"><i class="bi bi-search"></i></div>
-          <div className="col-lg-1"><i class="bi bi-brightness-high"></i></div>
+          <div className="col-lg-1"><i className="bi bi-search"></i></div>
+          <div className="col-lg-1"><i className="bi bi-brightness-high"></i></div>
       </div></div></div>
     </div>
   </nav>
@@ -33,7 +35,7 @@ const Home = () => {
     <div className="container-fluid p-0">
       <div className="row g-0">
         <div className="col-lg-4 col-sm-6">
-          <a className="portfolio-box" href="" target="_blank" title="">
+          <a className="portfolio-box" href="#" title="">
             <img className="img-fluid" src="https://drive.google.com/uc?export=view&id=1KI7zlpBG8AX7tEhREiB8AQjttZjNQr3c" alt="arts and music" />
             <div className="portfolio-box-caption">
               <div className="project-category text-white-50">ARTS & MUSIC:</div>
@@ -42,7 +44,7 @@ const Home = () => {
           </a>
         </div>
         <div className="col-lg-4 col-sm-6">
-          <a className="portfolio-box" href="" target="_blank" rel="noopener noreferrer" title="">
+          <a className="portfolio-box" href="#" rel="noopener noreferrer" title="">
             <img className="img-fluid" src="https://drive.google.com/uc?export=view&id=1h4OQXJAqD55vBM7dbI_0RIBfU4V7eF2C" alt="family fun" />
             <div className="portfolio-box-caption">
               <div className="project-category text-white-50">FAMILY FUN:</div>
@@ -51,7 +53,7 @@ const Home = () => {
           </a>
         </div>
         <div className="col-lg-4 col-sm-6">
-          <a className="portfolio-box" href="" target="_blank" title="">
+          <a className="portfolio-box" href="#" title="">
             <img className="img-fluid" src="https://drive.google.com/uc?export=view&id=1SYjAps7nUzu7ibU_PmNDso-hjaEuuAou" alt="food and drink" />
             <div className="portfolio-box-caption">
               <div className="project-category text-white-50">FOOD & DRINK:</div>
@@ -60,7 +62,7 @@ const Home = () => {
           </a>
         </div>
         <div className="col-lg-4 col-sm-6">
-          <a className="portfolio-box" href="" target="_blank" title="">
+          <a className="portfolio-box" href="#" title="">
             <img className="img-fluid" src="https://drive.google.com/uc?export=view&id=1rBc_lu75ywji4jpJ1Nr_sDC7Oe0rxlmi" alt="history and heritage" />
             <div className="portfolio-box-caption">
               <div className="project-category text-white-50">HERITAGE & HISTORY:</div>
@@ -69,16 +71,16 @@ const Home = () => {
           </a>
         </div>
         <div className="col-lg-4 col-sm-6">
-          <a className="portfolio-box" href="" target="_blank" title="">
-           <a href=""><img className="img-fluid" src="https://drive.google.com/uc?export=view&id=14GSBgAMF6AZY2iMd-hrMBYirkird01T3" alt="sports" /></a> 
+          <a className="portfolio-box" href="#" title="">
+           <img className="img-fluid" src="https://drive.google.com/uc?export=view&id=14GSBgAMF6AZY2iMd-hrMBYirkird01T3" alt="sports" /> 
             <div className="portfolio-box-caption">
               <div className="project-category text-white-50">SPORTS:</div>
               <div className="project-name">games, competions, recreation</div>
             </div>
-          </a>
+            </a>
         </div>
         <div className="col-lg-4 col-sm-6">
-          <a className="portfolio-box" href="" target="_blank" title="">
+          <a className="portfolio-box" href="#" title="">
             <img className="img-fluid" src="https://drive.google.com/uc?export=view&id=1yAM5l1O76fwtjDluHP-lNW16ky8Jtxqu" alt="outdoors" />
             <div className="portfolio-box-caption p-3">
               <div className="project-category text-white-50">OUTDOORS:</div>
@@ -90,8 +92,45 @@ const Home = () => {
       </div>
     </div>
   </div>
+  <Carousel>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src="https://drive.google.com/uc?export=view&id=1cs4ypfp8uS5oDm_MBwEhsg6oKGsrQS7I"
+          alt="First slide"
+        />
+        <Carousel.Caption>
+        <Button variant="secondary">FEATURED ATTRACTIONS</Button>{' '}
+          
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src="https://drive.google.com/uc?export=view&id=1gHLBmuq_94VUm_29IrBg7RxONXKiENV6"
+          alt="Second slide"gi
+        />
 
-      <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="carousel">
+        <Carousel.Caption>
+        <a href="https://www.theabercrumbiegroup.com/blackmusic" target="_blank" rel="noopener noreferrer"> 
+        <Button variant="info">VISIT WEBSITE</Button>{' '}</a>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src="https://drive.google.com/uc?export=view&id=1jr18bKnKTxrM0XZrnwicjPVS5jEWHEkm"
+          alt="Third slide"
+        />
+
+        <Carousel.Caption>
+        <a href="https://www.artonvinecincy.com/" target="_blank" rel="noopener noreferrer">
+        <Button variant="info">VISIT WEBSITE</Button>{' '}</a>
+        </Carousel.Caption>
+      </Carousel.Item>
+    </Carousel>
+
+      {/* <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="carousel">
         <div className="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to={0} className="active" aria-current="true" aria-label="Slide 1" />
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to={1} aria-label="Slide 2" />
@@ -102,7 +141,7 @@ const Home = () => {
             <img src="https://drive.google.com/uc?export=view&id=1cs4ypfp8uS5oDm_MBwEhsg6oKGsrQS7I" className="d-block w-100" alt="highlights" />
             <div className="carousel-caption d-none d-md-block">
             </div>
-          </div>
+          </div></div>
           <div className="carousel-item">
             <img src="https://drive.google.com/uc?export=view&id=1gHLBmuq_94VUm_29IrBg7RxONXKiENV6" className="d-block w-100" alt="highlights" />
             <div className="carousel-caption d-none d-md-block">
@@ -116,7 +155,7 @@ const Home = () => {
             <a href="https://www.artonvinecincy.com/" target="_blank" rel="noopener noreferrer"><button className='button'>VISIT WEBSITE</button></a>
             </div>
           </div>
-        </div>
+        <div>
         <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
           <span className="carousel-control-prev-icon" aria-hidden="true" />
           <span className="visually-hidden">Previous</span>
@@ -126,7 +165,7 @@ const Home = () => {
           <span className="visually-hidden">Next</span>
         </button>
       </div>
-
+</div> */}
   {/* Footer*/}
   <footer>
     <div className="container p-4">
@@ -149,8 +188,8 @@ const Home = () => {
       </div>  
       </div></div>
   </footer>
-</div>
 
+</div>
   )
 }
 
