@@ -13,11 +13,11 @@ const Home = () => {
       <div className="collapse navbar-collapse" id="navbarResponsive">
       <div className="container-fluid">
       <div className="row">
-        <div className="col-lg-4"><a className="navbar-brand" href="#page-top"><h2><b>CINCY TOURS</b></h2></a></div>
-         <div className="col-lg-3"><a className="nav-link" href="#about"><b>CONTACT</b></a></div>
-          <div className="col-lg-3"><a className="nav-link" href="#services"><b>ABOUT</b></a></div>
-          <div className="col-lg-1"><i className="bi bi-search"></i></div>
-          <div className="col-lg-1"><i className="bi bi-brightness-high"></i></div>
+        <div className="col-lg-4"><a className="navbar-brand" href="/"><h2><b>CINCY TOURS</b></h2></a></div>
+         <div className="col-lg-3"><a className="nav-link" href="/contact"><h4><b>CONTACT</b></h4></a></div>
+          <div className="col-lg-3"><a className="nav-link" href="/about"><h4><b>ABOUT</b></h4></a></div>
+          <div className="col-lg-1"><h4><i className="bi bi-search"></i></h4></div>
+          <div className="col-lg-1"><h4><i className="bi bi-brightness-high"></i></h4></div>
       </div></div></div>
     </div>
   </nav>
@@ -35,7 +35,7 @@ const Home = () => {
     <div className="container-fluid p-0">
       <div className="row g-0">
         <div className="col-lg-4 col-sm-6">
-          <a className="portfolio-box" href="#" title="">
+          <a className="portfolio-box" href="/artsmusic" title="">
             <img className="img-fluid" src="https://drive.google.com/uc?export=view&id=1KI7zlpBG8AX7tEhREiB8AQjttZjNQr3c" alt="arts and music" />
             <div className="portfolio-box-caption">
               <div className="project-category text-white-50">ARTS & MUSIC:</div>

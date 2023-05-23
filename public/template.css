@@ -45,9 +45,6 @@ body {
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
-.cyan{
-  background-color: #54B4D3;
-}
 .button{
   border-radius: 10px;
   background-color: #066173;
@@ -4476,8 +4473,6 @@ textarea.form-control-lg {
 .navbar-dark .navbar-text a:focus {
   color: #fff;
 }
-
-
 
 .card {
   position: relative;
