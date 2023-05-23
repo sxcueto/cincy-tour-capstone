@@ -1,8 +1,8 @@
 const router = require('express').Router();
-let Arts = require('../models/art/arts.model')
+let Sports = require('../models/art/sports.model')
 
 router.route('/').get((req, res) => {
-    Arts.find()
+    Sports.find()
         .then(arts => res.json(arts))
         .catch(err => res.status(400).json('Error: ' + err));
 });
@@ -14,7 +14,7 @@ router.route('/add').post((req,res) => {
     const address = req.body.address;
     const website = req.body.website
 
-    const newArts = new Arts ({
+    const newSports = new Sports ({
         name,
         description,
         imgUrl,
@@ -22,24 +22,24 @@ router.route('/add').post((req,res) => {
         website
     });
 
-    newArts.save()
+    newSports.save()
         .then(() => res.json('Attraction added!'))
         .catch(err => res.status(400).json('Error ' + err));
 });
 
 router.route('/:id').delete((req,res) => {
-    Arts.findByIdAndDelete(req.params.id)
+    Sports.findByIdAndDelete(req.params.id)
         .then(() => res.json('Attraction deleted.'))
         .catch(err => res.status(400).json('Error: ' + err))
 })
 
 router.route('/update/:id').post((req,res) => {
-    Arts.findById(req.params.id)
-    .then(arts => {
-      arts.name = req.body.name;
-      arts.description = req.body.description;
-      arts.imgUrl= req.body.imgUrl
-      arts.address = req.body.address;
+    Sports.findById(req.params.id)
+    .then(sports => {
+      sports.name = req.body.name;
+      sports.description = req.body.description;
+      sports.imgUrl= req.body.imgUrl
+      sports.address = req.body.address;
 
       exercise.save()
         .then(() => res.json('Attraction updated!'))
@@ -48,4 +48,3 @@ router.route('/update/:id').post((req,res) => {
     .catch(err => res.status(400).json('Error: ' + err));
 })
 module.exports = router;
-
