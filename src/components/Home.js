@@ -172,7 +172,8 @@ const Home = () => {
       Made by KableTeam <br />
       © 2023
       </div>  
-      </div></div>
+      </div>
+      </div>
   </footer>
 
 </div>
