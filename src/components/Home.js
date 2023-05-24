@@ -13,11 +13,11 @@ const Home = () => {
       <div className="collapse navbar-collapse" id="navbarResponsive">
       <div className="container-fluid">
       <div className="row">
-        <div className="col-lg-4"><a className="navbar-brand" href="/"><h2><b>CINCY TOURS</b></h2></a></div>
-         <div className="col-lg-3"><a className="nav-link" href="/contact"><h4><b>CONTACT</b></h4></a></div>
-          <div className="col-lg-3"><a className="nav-link" href="/about"><h4><b>ABOUT</b></h4></a></div>
-          <div className="col-lg-1"><h4><i className="bi bi-search"></i></h4></div>
-          <div className="col-lg-1"><h4><i className="bi bi-brightness-high"></i></h4></div>
+        <div className="col-lg-4"><a className="navbar-brand" href="#page-top"><h2><b>CINCY TOURS</b></h2></a></div>
+         <div className="col-lg-3"><a className="nav-link" href="/contact"><b>CONTACT</b></a></div>
+          <div className="col-lg-3"><a className="nav-link" href="/about"><b>ABOUT</b></a></div>
+          <div className="col-lg-1"><i className="bi bi-search"></i></div>
+          <div className="col-lg-1"><i className="bi bi-brightness-high"></i></div>
       </div></div></div>
     </div>
   </nav>
@@ -186,7 +186,8 @@ const Home = () => {
       Made by KableTeam <br />
       © 2023
       </div>  
-      </div></div>
+      </div>
+      </div>
   </footer>
 
 </div>
