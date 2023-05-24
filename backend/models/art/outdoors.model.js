@@ -5,7 +5,8 @@ const outdoorsSchema = new mongoose.Schema({
     description: {type: String},
     imgUrl:{type: String},
     address:{type: String},
-    website:{type: String}
+    website:{type: String},
+    category:{type: String}
 });
 
 const Outdoors = mongoose.model('Outdoors', outdoorsSchema);

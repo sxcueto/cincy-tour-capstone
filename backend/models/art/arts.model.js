@@ -5,7 +5,8 @@ const artsSchema = new mongoose.Schema({
   description: {type: String},
   imgUrl:{type: String},
   address:{type: String},
-  website:{type: String}
+  website:{type: String},
+  category:{type: String}
   // Add more fields as needed
 });
 

@@ -5,7 +5,9 @@ const sportsSchema = new mongoose.Schema({
     description: {type: String},
     imgUrl:{type: String},
     address:{type: String},
-    website:{type: String}
+    website:{type: String},
+    category:{type: String}
+
 });
 
 const Sports = mongoose.model('Sports', sportsSchema);

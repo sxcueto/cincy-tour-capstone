@@ -12,14 +12,16 @@ router.route('/add').post((req,res) => {
     const description = req.body.description
     const imgUrl = req.body.imgUrl;
     const address = req.body.address;
-    const website = req.body.website
+    const website = req.body.website;
+    const category = req.body.category
 
     const newFamily = new Family ({
         name,
         description,
         imgUrl,
         address,
-        website
+        website,
+        category
     });
 
     newFamily.save()
@@ -40,6 +42,8 @@ router.route('/update/:id').post((req,res) => {
       family.description = req.body.description;
       family.imgUrl= req.body.imgUrl
       family.address = req.body.address;
+      family.website = req.body.website
+      family.category = req.body.category
       
 
       exercise.save()

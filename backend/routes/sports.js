@@ -13,13 +13,15 @@ router.route('/add').post((req,res) => {
     const imgUrl = req.body.imgUrl;
     const address = req.body.address;
     const website = req.body.website
+    const category = req.body.category
 
     const newSports = new Sports ({
         name,
         description,
         imgUrl,
         address,
-        website
+        website,
+        category
     });
 
     newSports.save()
@@ -40,6 +42,9 @@ router.route('/update/:id').post((req,res) => {
       sports.description = req.body.description;
       sports.imgUrl= req.body.imgUrl
       sports.address = req.body.address;
+      sports.website = req.body.website;
+      sports.category = req.body.category
+      
 
       exercise.save()
         .then(() => res.json('Attraction updated!'))

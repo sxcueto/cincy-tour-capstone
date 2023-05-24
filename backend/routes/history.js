@@ -13,6 +13,7 @@ router.route('/add').post((req,res) => {
     const imgUrl = req.body.imgUrl;
     const address = req.body.address;
     const website = req.body.website
+    const category = req.body.category
     
 
     const newHistory = new History ({
@@ -20,7 +21,8 @@ router.route('/add').post((req,res) => {
         description,
         imgUrl,
         address,
-        website
+        website,
+        category
     });
 
     newHistory.save()
@@ -41,6 +43,8 @@ router.route('/update/:id').post((req,res) => {
       history.description = req.body.description;
       history.imgUrl= req.body.imgUrl
       history.address = req.body.address;
+      history.website = req.body.website;
+      history.category = req.body.category
 
       exercise.save()
         .then(() => res.json('Attraction updated!'))
