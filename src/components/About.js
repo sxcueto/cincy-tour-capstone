@@ -3,28 +3,12 @@ import { FaArrowDown, FaArrowUp, FaLinkedin, FaLink, FaGithub, FaDiceD20 } from 
 const About = () => {
     return (
         <div>
-            
- {/* Navigation*/}
- <nav className="navbar navbar-expand-lg navbar-dark fixed-top p-3" id="mainNav">
-    <div className="container-fluid">
-      <button className="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span className="navbar-toggler-icon" /></button>
-      <div className="collapse navbar-collapse" id="navbarResponsive">
-      <div className="container-fluid">
-      <div className="row">
-        <div className="col-lg-4"><a className="navbar-brand" href="#page-top"><h2><b>CINCY TOURS</b></h2></a></div>
-         <div className="col-lg-3"><a className="nav-link" href="/contact"><b>CONTACT</b></a></div>
-          <div className="col-lg-3"><a className="nav-link" href="/about"><b>ABOUT</b></a></div>
-          <div className="col-lg-1"><i className="bi bi-search"></i></div>
-          <div className="col-lg-1"><i className="bi bi-brightness-high"></i></div>
-      </div></div></div>
-    </div>
-  </nav>
             {/* //section one "about" landing page */}
             <section id="section-one">
                 <header className="jumbotron jumbotron-fluid">
-                    <div className="container-fluid text-center">
+                    <div className="container-fluid text-center text-black">
                         <br />
-                        <h1 className="display-3" id="about-header">Who dey?</h1>
+                        <h1 className="display-3" id="about-header"></h1>
                         <br />
                         <a href="/about#section-two">
                             <FaArrowDown />
@@ -102,28 +86,7 @@ const About = () => {
         <br />
         <br />
 
-            <footer>
-                <div className="container p-4">
-                    <div className="row">
-                        <div className="col-4 small text-muted">
-                            CINCY TOURS <br />
-                            555 Bubble St <br />
-                            Blue Ash 45222 <br />
-                            513-555-5555
-                        </div>
-                        <div className="col-4 small text-muted">
-                            CONTACT <br />
-                            ABOUT <br />
-                            SITEMAP <br />
-                            ACCESSIBILITY <br />
-                        </div>
-                        <div className="col-4 small text-muted">
-                            Made by KableTeam <br />
-                            © 2023
-                        </div>
-                    </div>
-                </div>
-            </footer>
+            
         </div>
     )
 }

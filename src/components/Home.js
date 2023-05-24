@@ -6,7 +6,8 @@ import Button from 'react-bootstrap/Button';
 const Home = () => {
   return (
     <div>
-    
+  {/*Navbar*/}  
+
   {/* Masthead*/}
   <header className="masthead ">
     <div className="container-fluid px-4 px-lg-5 h-100">
@@ -30,7 +31,7 @@ const Home = () => {
           </a>
         </div>
         <div className="col-lg-4 col-sm-6">
-          <a className="portfolio-box" href="#" rel="noopener noreferrer" title="">
+          <a className="portfolio-box" href="/familyfun" rel="noopener noreferrer" title="">
             <img className="img-fluid" src="https://drive.google.com/uc?export=view&id=1h4OQXJAqD55vBM7dbI_0RIBfU4V7eF2C" alt="family fun" />
             <div className="portfolio-box-caption">
               <div className="project-category text-white-50">FAMILY FUN:</div>
@@ -39,7 +40,7 @@ const Home = () => {
           </a>
         </div>
         <div className="col-lg-4 col-sm-6">
-          <a className="portfolio-box" href="#" title="">
+          <a className="portfolio-box" href="/fooddrink" title="">
             <img className="img-fluid" src="https://drive.google.com/uc?export=view&id=1SYjAps7nUzu7ibU_PmNDso-hjaEuuAou" alt="food and drink" />
             <div className="portfolio-box-caption">
               <div className="project-category text-white-50">FOOD & DRINK:</div>
@@ -86,96 +87,37 @@ const Home = () => {
           alt="First slide"
         />
         <Carousel.Caption>
-        <Button variant="secondary">FEATURED ATTRACTIONS</Button>{' '}
-          
+        <Button variant="secondary">FEATURED ATTRACTIONS</Button>{' '}        
         </Carousel.Caption>
       </Carousel.Item>
+
       <Carousel.Item>
         <img
           className="d-block w-100"
           src="https://drive.google.com/uc?export=view&id=1gHLBmuq_94VUm_29IrBg7RxONXKiENV6"
-          alt="Second slide"gi
+          alt="Second slide"
         />
-
         <Carousel.Caption>
         <a href="https://www.theabercrumbiegroup.com/blackmusic" target="_blank" rel="noopener noreferrer"> 
         <Button variant="info">VISIT WEBSITE</Button>{' '}</a>
         </Carousel.Caption>
       </Carousel.Item>
+
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="https://drive.google.com/uc?export=view&id=1jr18bKnKTxrM0XZrnwicjPVS5jEWHEkm"
+          src="https://drive.google.com/uc?export=view&id=16CRjLZNuyOKfwJvJe1krRkOA1T3CzbSY"
           alt="Third slide"
         />
-
         <Carousel.Caption>
-        <a href="https://www.artonvinecincy.com/" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.visitkingsisland.com/" target="_blank" rel="noopener noreferrer">
         <Button variant="info">VISIT WEBSITE</Button>{' '}</a>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
 
-      {/* <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="carousel">
-        <div className="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to={0} className="active" aria-current="true" aria-label="Slide 1" />
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to={1} aria-label="Slide 2" />
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to={2} aria-label="Slide 3" />
-        </div>
-        <div className="carousel-inner">
-          <div className="carousel-item active">
-            <img src="https://drive.google.com/uc?export=view&id=1cs4ypfp8uS5oDm_MBwEhsg6oKGsrQS7I" className="d-block w-100" alt="highlights" />
-            <div className="carousel-caption d-none d-md-block">
-            </div>
-          </div></div>
-          <div className="carousel-item">
-            <img src="https://drive.google.com/uc?export=view&id=1gHLBmuq_94VUm_29IrBg7RxONXKiENV6" className="d-block w-100" alt="highlights" />
-            <div className="carousel-caption d-none d-md-block">
-              <a href="https://www.theabercrumbiegroup.com/blackmusic" target="_blank" rel="noopener noreferrer"><button className='button'>VISIT WEBSITE</button></a>
-            </div>
-          </div>
-
-          <div className="carousel-item">
-            <img src="https://drive.google.com/uc?export=view&id=1jr18bKnKTxrM0XZrnwicjPVS5jEWHEkm" className="d-block w-100" alt="highlights" />
-            <div className="carousel-caption d-none d-md-block">
-            <a href="https://www.artonvinecincy.com/" target="_blank" rel="noopener noreferrer"><button className='button'>VISIT WEBSITE</button></a>
-            </div>
-          </div>
-        <div>
-        <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-          <span className="carousel-control-prev-icon" aria-hidden="true" />
-          <span className="visually-hidden">Previous</span>
-        </button>
-        <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-          <span className="carousel-control-next-icon" aria-hidden="true" />
-          <span className="visually-hidden">Next</span>
-        </button>
-      </div>
-</div> */}
   {/* Footer*/}
-  <footer>
-    <div className="container p-4">
-    <div className="row">
-    <div className="col-4 small text-muted">
-    CINCY TOURS <br />
-    555 Bubble St <br />
-    Blue Ash 45222 <br />
-    513-555-5555
-      </div>
-      <div className="col-4 small text-muted">
-      CONTACT <br />
-      ABOUT <br />
-      SITEMAP <br />
-      ACCESSIBILITY <br />
-      </div>
-      <div className="col-4 small text-muted">
-      Made by KableTeam <br />
-      © 2023
-      </div>  
-      </div>
-      </div>
-  </footer>
-
+  
 </div>
   )
 }
