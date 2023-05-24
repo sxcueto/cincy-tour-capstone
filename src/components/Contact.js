@@ -1,15 +1,18 @@
 import React from "react";
 import {Link} from 'react-router-dom'
 
-const Contact = (){
+const Contact = () => {
     return(
         <div>
+   <section id="trip-planner" className="d-flex justify-content-center" >
      <div>
       <div>
         <h2>Select Your Trip Date</h2>
-        <div>
-          <button>Start Date</button>
-          <button>End Date</button>
+        <div className="d-flex justify-content-center">
+          <div className="text-center">
+            <input type="text" className="form-control mb-2 mr-sm-2" placeholder="Start Date" />
+            <input type="text" className="form-control mb-2 mr-sm-2" placeholder="End Date" />
+          </div>
         </div>
       </div>
 
@@ -35,6 +38,9 @@ const Contact = (){
         </div>
       </div>
     </div>
+  </section>   
         </div>
     )
 }
+
+export default Contact
