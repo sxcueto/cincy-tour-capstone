@@ -1,5 +1,6 @@
 import React from "react";
 import { FaArrowDown, FaArrowUp, FaLinkedin, FaLink, FaGithub, FaDiceD20 } from 'react-icons/fa';
+// import FunFact from './FunFact';
 const About = () => {
     return (
         <div>
@@ -28,7 +29,10 @@ const About = () => {
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, eaque.</p>
                     <br />
                     {/* {/* dice for fun fact generator will go here (add sound effect?)  */}
-                    <FaDiceD20 /> <br />
+                    <div id="factDisplay">
+                   <button onClick="newFact()"><FaDiceD20 /></button>
+                    </div> <br />
+
                     <a href="/about#section-three">
                         <FaArrowDown />
                     </a>
