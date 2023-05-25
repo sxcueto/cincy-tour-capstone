@@ -3,11 +3,12 @@ import Carousel  from 'react-bootstrap/Carousel';
 import Button from 'react-bootstrap/Button';
 import Dropdown from 'react-bootstrap/Dropdown';
 
-const Home = () => {
+const ArtsMusic = () => {
   return (
     <div>
  
   <Carousel>
+
       <Carousel.Item>
         <img
           className="d-block w-100"
@@ -16,33 +17,57 @@ const Home = () => {
         />
         <Carousel.Caption>
         <Button variant="secondary">FEATURED ATTRACTIONS</Button>{' '}
-          
         </Carousel.Caption>
       </Carousel.Item>
+
       <Carousel.Item>
         <img
           className="d-block w-100"
           src="https://drive.google.com/uc?export=view&id=1X60jHSz3fv2DwlVCfHM93hh1c4_ezT4g"
           alt="Second slide"
         />
-
         <Carousel.Caption>
-        <a href="https://www.theabercrumbiegroup.com/blackmusic" target="_blank" rel="noopener noreferrer"> 
+        <a href="https://www.artworkscincinnati.org/public-art/" target="_blank" rel="noopener noreferrer"> 
         <Button variant="info">VISIT WEBSITE</Button>{' '}</a>
         </Carousel.Caption>
       </Carousel.Item>
+
       <Carousel.Item>
         <img
           className="d-block w-100"
           src="https://drive.google.com/uc?export=view&id=1xH_OYPRCfXAQXhPIFnLG4q2B61Qk7ut9"
           alt="Third slide"
         />
-
         <Carousel.Caption>
-        <a href="https://www.artonvinecincy.com/" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.cincyblackmusicwalkoffame.org/" target="_blank" rel="noopener noreferrer">
         <Button variant="info">VISIT WEBSITE</Button>{' '}</a>
         </Carousel.Caption>
       </Carousel.Item>
+
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src="https://drive.google.com/uc?export=view&id=1z0Q9ferX7CCnDK9ZOl6XoX0beBbcpor0"
+          alt="Fourth slide"
+        />
+        <Carousel.Caption>
+        <a href="https://www.americansignmuseum.org/" target="_blank" rel="noopener noreferrer">
+        <Button variant="info">VISIT WEBSITE</Button>{' '}</a>
+        </Carousel.Caption>
+      </Carousel.Item>
+
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src="https://drive.google.com/uc?export=view&id=1migdmge_KMeEHybPMVi0eQPVlfHhcxHT"
+          alt="Fifth slide"
+        />
+        <Carousel.Caption>
+        <a href="https://www.cincinnatiarts.org/music-hall" target="_blank" rel="noopener noreferrer">
+        <Button variant="info">VISIT WEBSITE</Button>{' '}</a>
+        </Carousel.Caption>
+      </Carousel.Item>
+
     </Carousel>
    
    <div className="container-fluid bg-info">
@@ -55,7 +80,8 @@ const Home = () => {
       </Dropdown.Toggle>
 
       <Dropdown.Menu>
-        <Dropdown.Item href="https://www.artworkscincinnati.org/public-art/murals/all-murals/" target="_blank">ArtWorks Murals</Dropdown.Item>
+        <Dropdown.Item href="https://www.artworkscincinnati.org/public-art/" target="_blank">ArtWorks Murals</Dropdown.Item>
+        <Dropdown.Item href="https://www.cincyblackmusicwalkoffame.org/" target="_blank">Black Music Walk of Fame</Dropdown.Item>
         <Dropdown.Item href="https://www.21cmuseumhotels.com/cincinnati/" target="_blank">21c Museum Hotel</Dropdown.Item>
         <Dropdown.Item href="https://www.americansignmuseum.org/" target="_blank">American Sign Museum</Dropdown.Item>
         <Dropdown.Item href="https://bradymusiccenter.com/" target="_blank">Andrew J Brady Music Center</Dropdown.Item>
@@ -85,4 +111,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default ArtsMusic

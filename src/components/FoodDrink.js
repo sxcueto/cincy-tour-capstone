@@ -3,7 +3,7 @@ import Carousel  from 'react-bootstrap/Carousel';
 import Button from 'react-bootstrap/Button';
 import Dropdown from 'react-bootstrap/Dropdown';
 
-const Home = () => {
+const FoodDrink = () => {
   return (
     <div>
  
@@ -69,6 +69,7 @@ const Home = () => {
         <Dropdown.Item href="https://www.bobevans.com/" target="_blank">Bob Evans</Dropdown.Item>
         <Dropdown.Item href="https://www.findlaymarket.org/" target="_blank">Findlay Market</Dropdown.Item>
         <Dropdown.Item href="https://www.alabama-q.com/" target="_blank">Alabama Que's</Dropdown.Item>
+        <Dropdown.Item href="https://braxtonbrewing.com/" target="_blank">Braxton Brewing Company</Dropdown.Item>
         <Dropdown.Item href="https://sweetsandmeatsbbq.com/" target="_blank">Sweets & Meats BBQ</Dropdown.Item>
         <Dropdown.Item href="https://noliakitchen.com/" target="_blank">Nolia Kitchen</Dropdown.Item>
         <Dropdown.Item href="https://www.islandfrydays.com/" target="_blank">Island Frydays</Dropdown.Item>
@@ -92,4 +93,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default FoodDrink

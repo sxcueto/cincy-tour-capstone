@@ -49,7 +49,7 @@ const Home = () => {
           </a>
         </div>
         <div className="col-lg-4 col-sm-6">
-          <a className="portfolio-box" href="#" title="">
+          <a className="portfolio-box" href="/heritagehistory" title="">
             <img className="img-fluid" src="https://drive.google.com/uc?export=view&id=1rBc_lu75ywji4jpJ1Nr_sDC7Oe0rxlmi" alt="history and heritage" />
             <div className="portfolio-box-caption">
               <div className="project-category text-white-50">HERITAGE & HISTORY:</div>
@@ -58,16 +58,16 @@ const Home = () => {
           </a>
         </div>
         <div className="col-lg-4 col-sm-6">
-          <a className="portfolio-box" href="#" title="">
+          <a className="portfolio-box" href="/sports" title="">
            <img className="img-fluid" src="https://drive.google.com/uc?export=view&id=14GSBgAMF6AZY2iMd-hrMBYirkird01T3" alt="sports" /> 
             <div className="portfolio-box-caption">
-              <div className="project-category text-white-50">SPORTS:</div>
+              <div className="project-category text-white-50">SPORTS & GAMING:</div>
               <div className="project-name">games, competions, recreation</div>
             </div>
             </a>
         </div>
         <div className="col-lg-4 col-sm-6">
-          <a className="portfolio-box" href="#" title="">
+          <a className="portfolio-box" href="/outdoors" title="">
             <img className="img-fluid" src="https://drive.google.com/uc?export=view&id=1yAM5l1O76fwtjDluHP-lNW16ky8Jtxqu" alt="outdoors" />
             <div className="portfolio-box-caption p-3">
               <div className="project-category text-white-50">OUTDOORS:</div>
@@ -84,7 +84,7 @@ const Home = () => {
         <img
           className="d-block w-100"
           src="https://drive.google.com/uc?export=view&id=1cs4ypfp8uS5oDm_MBwEhsg6oKGsrQS7I"
-          alt="First slide"
+          alt="Highlights"
         />
         <Carousel.Caption>
         <Button variant="secondary">FEATURED ATTRACTIONS</Button>{' '}        
@@ -94,11 +94,11 @@ const Home = () => {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="https://drive.google.com/uc?export=view&id=1gHLBmuq_94VUm_29IrBg7RxONXKiENV6"
-          alt="Second slide"
+          src="https://drive.google.com/uc?export=view&id=1oxNaFJnenu9pUk-RK7dmloc51DQViL04"
+          alt="Highlights"
         />
         <Carousel.Caption>
-        <a href="https://www.theabercrumbiegroup.com/blackmusic" target="_blank" rel="noopener noreferrer"> 
+        <a href="https://www.artworkscincinnati.org/public-art/" target="_blank" rel="noopener noreferrer"> 
         <Button variant="info">VISIT WEBSITE</Button>{' '}</a>
         </Carousel.Caption>
       </Carousel.Item>
@@ -106,14 +106,63 @@ const Home = () => {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="https://drive.google.com/uc?export=view&id=16CRjLZNuyOKfwJvJe1krRkOA1T3CzbSY"
-          alt="Third slide"
+          src="https://drive.google.com/uc?export=view&id=1gHLBmuq_94VUm_29IrBg7RxONXKiENV6"
+          alt="Highlights"
         />
         <Carousel.Caption>
         <a href="https://www.visitkingsisland.com/" target="_blank" rel="noopener noreferrer">
         <Button variant="info">VISIT WEBSITE</Button>{' '}</a>
         </Carousel.Caption>
       </Carousel.Item>
+
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src="https://drive.google.com/uc?export=view&id=1jr18bKnKTxrM0XZrnwicjPVS5jEWHEkm"
+          alt="Highlights"
+        />
+        <Carousel.Caption>
+        <a href="https://madtree.com/" target="_blank" rel="noopener noreferrer"> 
+        <Button variant="info">VISIT WEBSITE</Button>{' '}</a>
+        </Carousel.Caption>
+      </Carousel.Item>
+
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src="https://drive.google.com/uc?export=view&id=1LSqONgbstoG2az4rCQOBppQJWCDRAsq4"
+          alt="Highlights"
+        />
+        <Carousel.Caption>
+        <a href="https://freedomcenter.org/" target="_blank" rel="noopener noreferrer"> 
+        <Button variant="info">VISIT WEBSITE</Button>{' '}</a>
+        </Carousel.Caption>
+      </Carousel.Item>
+
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src="https://drive.google.com/uc?export=view&id=1-TucT1U1aq2ElA3nnWvqxwMErne3YUc1"
+          alt="Highlights"
+        />
+        <Carousel.Caption>
+        <a href="https://www.mlb.com/reds/hall-of-fame" target="_blank" rel="noopener noreferrer"> 
+        <Button variant="info">VISIT WEBSITE</Button>{' '}</a>
+        </Carousel.Caption>
+      </Carousel.Item>
+
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src="https://drive.google.com/uc?export=view&id=1za6avGNMUr_DPKgCKeyoI6qW8YC9BBGe"
+          alt="Highlights"
+        />
+        <Carousel.Caption>
+        <a href="https://cincinnatizoo.org/" target="_blank" rel="noopener noreferrer"> 
+        <Button variant="info">VISIT WEBSITE</Button>{' '}</a>
+        </Carousel.Caption>
+      </Carousel.Item>
+
     </Carousel>
 
   {/* Footer*/}

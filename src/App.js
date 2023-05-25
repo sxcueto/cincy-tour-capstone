@@ -7,6 +7,9 @@ import Footer from './components/Footer';
 import ArtsMusic from './components/ArtsMusic';
 import FamilyFun from './components/FamilyFun';
 import FoodDrink from './components/FoodDrink';
+import HeritageHistory from './components/HeritageHistory';
+import Sports from './components/Sports';
+import Outdoors from './components/Outdoors';
 
 class App extends Component {
   render(){
@@ -23,6 +26,9 @@ class App extends Component {
       <Route  path="/familyfun" component={FamilyFun} />
       <Route  path="/artsmusic" component={ArtsMusic} />
       <Route  path="/fooddrink" component={FoodDrink} />
+      <Route  path="/heritagehistory" component={HeritageHistory} />
+      <Route  path="/sports" component={Sports} />
+      <Route  path="/outdoors" component={Outdoors} />
       </Switch>
 
       <Footer />
