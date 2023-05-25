@@ -71,6 +71,7 @@ const Outdoors = () => {
         <Dropdown.Item href="https://www.cincinnati-oh.gov/cincyparks/" target="_blank">Cincinnati Parks</Dropdown.Item>
         <Dropdown.Item href="https://www.greatparks.org/" target="_blank">Great Parks of Hamilton County</Dropdown.Item>
         <Dropdown.Item href="https://www.cincynature.org/" target="_blank">Cincinnati Nature Center</Dropdown.Item>
+        <Dropdown.Item href="https://www.aultparkac.org/" target="_blank">Ault Park</Dropdown.Item>
         <Dropdown.Item href="http://www.astonoaksgolfclub.com/" target="_blank">Aston Oaks Golf Club</Dropdown.Item>
         <Dropdown.Item href="https://kenwoodcc.com/" target="_blank">Kenwood Country Club</Dropdown.Item>
         <Dropdown.Item href="https://www.ohioriverpaddlefest.org/" target="_blank">Ohio River Paddlefest</Dropdown.Item>

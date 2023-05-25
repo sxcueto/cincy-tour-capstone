@@ -78,6 +78,7 @@ const HeritageHistory = () => {
         <Dropdown.Item href="https://eastrow.org/" target="_blank">East Row Historic District</Dropdown.Item>
         <Dropdown.Item href="https://www.facebook.com/GermanHeritageMuseum" target="_blank">German Heritage Museum</Dropdown.Item>
         <Dropdown.Item href="http://stowehousecincy.org/index.html" target="_blank">Harriet Beecher Stowe House</Dropdown.Item>
+        <Dropdown.Item href="https://brewingheritagetrail.org/" target="_blank">Brewing Heritage Trail</Dropdown.Item>
         <Dropdown.Item href="https://www.visitcincy.com/" target="_blank">More options at Visit Cincy</Dropdown.Item>
       </Dropdown.Menu>
     </Dropdown>   
