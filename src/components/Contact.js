@@ -1,11 +1,12 @@
 import React from "react";
 import {Link} from 'react-router-dom'
+import axios from "axios";
 
 const Contact = () => {
     return(
         <div>
    <section id="trip-planner" className="d-flex justify-content-center" >
-     <div>
+     <div className="border border-white">
       <div>
         <h2>Select Your Trip Date</h2>
         <div className="d-flex justify-content-center">
@@ -18,11 +19,11 @@ const Contact = () => {
 
       <div>
         <h2>Traveling With</h2>
-        <div>
-          <button>Alone</button>
-          <button>With Family</button>
-          <button>With Friends</button>
-          <button>With a Partner</button>
+        <div className="btn-group" >
+          <button className="btn btn-primary btn-light">Alone</button>
+          <button className="btn btn-primary btn-light">With Family</button>
+          <button className="btn btn-primary btn-light">With Friends</button>
+          <button className="btn btn-primary btn-light">With a Partner</button>
         </div>
       </div>
 
@@ -38,7 +39,14 @@ const Contact = () => {
         </div>
       </div>
     </div>
-  </section>   
+  </section>
+  <section id="contact-form" className="d-flex justify-content-center">
+  <div className="text-center">
+    <textarea name="contact" id="contact" className="form-control mb-2" rows="10"></textarea>
+    <button className="btn btn-primary btn-light">Submit</button>
+  </div>
+</section>
+   
         </div>
     )
 }
