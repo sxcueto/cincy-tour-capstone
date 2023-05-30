@@ -68,7 +68,7 @@ const Outdoors = () => {
 
       <Dropdown.Menu>
         <Dropdown.Item href="https://cincinnatizoo.org/" target="_blank">Cincinnati Zoo & Botanical Garden</Dropdown.Item>
-        <Dropdown.Item href="https://www.cincinnati-oh.gov/cincyparks/" target="_blank">Cincinnati Parks</Dropdown.Item>
+        <Dropdown.Item href="https://www.cincinnati-oh.gov/cincyparks/visit-a-park/" target="_blank">Cincinnati Parks</Dropdown.Item>
         <Dropdown.Item href="https://www.greatparks.org/" target="_blank">Great Parks of Hamilton County</Dropdown.Item>
         <Dropdown.Item href="https://www.cincynature.org/" target="_blank">Cincinnati Nature Center</Dropdown.Item>
         <Dropdown.Item href="https://www.aultparkac.org/" target="_blank">Ault Park</Dropdown.Item>

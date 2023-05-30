@@ -44,7 +44,7 @@ const About = () => {
                     <h2>Capstone Team</h2>
 
                     <div class="card h-40 w-25" id="card-inside">
-                        <img class="card-img-top" src="/" alt="..." />
+                        <img class="card-img-top" src="https://drive.google.com/uc?export=view&id=1yiMe4SE_qay6ZMM0NINVa2OAFqp8HjpQ" alt="Eliane Bettocchi" />
                         <div class="card-body">
                             <h5 class="card-title">Eliane Bettocchi</h5>
                             <br />
