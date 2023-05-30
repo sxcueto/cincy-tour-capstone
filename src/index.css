@@ -298,7 +298,7 @@ a>code {
 }
 
 #card-inside{
-  border-color: lightblue;
+  border-color: white;
 }
 
 #social{
@@ -328,7 +328,7 @@ display:inline-flex;
 }
 
 .icons{
-  color: white;
+  color: #66CCCC;
 }
 
 .team-header{

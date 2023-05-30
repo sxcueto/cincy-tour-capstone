@@ -11,7 +11,6 @@ import FoodDrink from './components/FoodDrink';
 import HeritageHistory from './components/HeritageHistory';
 import Sports from './components/Sports';
 import Outdoors from './components/Outdoors';
-import FunFact from './components/FunFact';
 
 
 
