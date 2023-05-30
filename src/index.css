@@ -273,9 +273,9 @@ a>code {
 /* about page */
 
 
-.jumbotron {
+.jumbotron{
   background-size: cover;
-  background-image: url("https://drive.google.com/uc?export=view&id=1VfJ5om5sKDoydJs7hNBPHR0p6dSTOQxu");
+  background-image: url("https://drive.google.com/uc?export=view&id=1VfJ5om5sKDoydJs7hNBPHR0p6dSTOQxu") no-repeat center;
   height: 100vh;
   padding: 5em inherit;
 }
@@ -297,12 +297,15 @@ a>code {
   justify-content: space-evenly;
 }
 
+#card-inside{
+  border-color: lightblue;
+}
+
 #social{
 list-style: none;
 text-decoration:none;
-display: flex;
-float: right;
 justify-content: space-evenly;
+display:inline-flex;
 }
 
 #section-one, #section-two, #section-three{
@@ -320,6 +323,26 @@ justify-content: space-evenly;
   padding-bottom: 200px;
 }
  #section-three{
-  padding-bottom: 50px ;
   padding-top: 120px;
+  padding-bottom: 50px;
+}
+
+.icons{
+  color: white;
+}
+
+.team-header{
+  padding-bottom: 25px;
+  padding-top: 25px;
+  
+}
+
+/* Contact Page */
+
+#trip-planner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
 }
