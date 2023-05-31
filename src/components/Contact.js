@@ -41,11 +41,15 @@ const Contact = () => {
     </div>
   </section>
   <section id="contact-form" className="d-flex justify-content-center">
-  <div className="text-center">
-    <textarea name="contact" id="contact" className="form-control mb-2" rows="10"></textarea>
-    <button className="btn btn-primary btn-light">Submit</button>
+  <div className="border border-primary rounded p-4">
+    <h2 className="mb-4">Questions? Contact us Below!</h2>
+    <div className="text-center">
+      <textarea name="contact" id="contact" className="form-control mb-2" rows="10"></textarea>
+      <button className="btn btn-primary btn-light">Submit</button>
+    </div>
   </div>
 </section>
+
    
         </div>
     )
