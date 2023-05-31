@@ -73,7 +73,7 @@ const FamilyFun = () => {
         <Dropdown.Item href="https://bcmuseum.org/" target="_blank">Behringer-Crawford Museum</Dropdown.Item>
         <Dropdown.Item href="https://www.cincymuseum.org/" target="_blank">Cincinnati Museum Center</Dropdown.Item>
         <Dropdown.Item href="https://www.mlb.com/reds/hall-of-fame" target="_blank">Cincinnati Reds Hall of Fame and Museum</Dropdown.Item>
-        <Dropdown.Item href="https://www.cincinnati-oh.gov/cincyparks/" target="_blank">Cincinnati Parks</Dropdown.Item>
+        <Dropdown.Item href="https://www.cincinnati-oh.gov/cincyparks/visit-a-park/" target="_blank">Cincinnati Parks</Dropdown.Item>
         <Dropdown.Item href="https://www.greatparks.org/" target="_blank">Great Parks of Hamilton County</Dropdown.Item>
         <Dropdown.Item href="https://www.cincynature.org/" target="_blank">Cincinnati Nature Center</Dropdown.Item>
         <Dropdown.Item href="https://lovelandcastle.com/" target="_blank">Loveland Castle</Dropdown.Item>
