@@ -1,16 +1,17 @@
 import React from "react";
 import { FaArrowDown, FaArrowUp, FaLinkedin, FaLink, FaGithub, FaDiceD20 } from 'react-icons/fa';
-
+import Button from 'react-bootstrap/Button';
 
 const About = () =>{
 return (
     <div>
         {/* //section one "about" landing page */}
         <section id="section-one">
-            <header className="jumbotron jumbotron-fluid" id="jumbo">
+            <header className="container-fluid" id="jumbo">
                 <div className="container-fluid text-center text-black">
                     <br />
                     <h1 className="display-3" id="about-header"></h1>
+                    <a href="https://www.artworkscincinnati.org/mural/the-hands-that-built-our-city/" target="_blank" rel="noopener noreferrer"><Button variant="info"><i class="bi bi-info-lg"></i></Button></a>
                     <br />
                     <a href="/about#section-two">
                         <FaArrowDown className="icons" />
