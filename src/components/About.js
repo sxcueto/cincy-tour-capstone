@@ -37,77 +37,85 @@ return (
                     <div id="factDisplay">{displayedFact}</div>
                 </div> <br /> */}
 
-                <a href="/about#section-three">
-                    <FaArrowDown className="icons" />
-                </a>
-            </div>
-        </section>
-        <br /> <br /> <br />
-        {/* //section three: info about group */}
-        <section id="section-three">
-            <div className="row row-cols-sm g-0 container-fluid text-center" id="card-group">
-                <a href="/about#section-two">
-                    <FaArrowUp className="icons" />
-                </a>
-                <h2 className="team-header">Capstone Team</h2>
-                <br />
-                <div className="card h-40 w-25" id="card-inside">
-                    <img className="card-img-top" src="/" alt="..." />
-                    <div className="card-body">
-                        <h5 className="card-title">Eliane Bettocchi</h5>
-                        <br />
-                        <div className="container" id="social">
-                            <a href="https://www.linkedin.com/in/lilith/">
-                                <FaLinkedin className="icons" />
-                            </a>
-                            <a href="https://github.com/elianebettocchi">
-                                <FaGithub className="icons" />
-                            </a>
-                            <FaLink  />
+                    <a href="/about#section-three">
+                        <FaArrowDown className="icons" />
+                    </a>
+                </div>
+            </section>
+            <br /> <br /> <br />
+
+            {/* //section three: info about group */}
+            <section id="section-three">
+                <div className="row row-cols-sm g-0 container-fluid text-center" id="card-group">
+                    <a href="/about#section-two">
+                        <FaArrowUp className="icons" />
+                    </a>
+                    <h2 className="team-header">Capstone Team</h2>
+                    <br />
+                    <div className="card h-40 w-25" id="card-inside">
+                        <img className="card-img-top" src="/" alt="..." />
+                        <div className="card-body">
+                            <h5 className="card-title">Eliane Bettocchi</h5>
+                            <br />
+                            <div className="container" id="social">
+                                <a href="https://www.linkedin.com/in/lilith/">
+                                    <FaLinkedin className="icons" />
+                                </a>
+                                <a href="https://github.com/elianebettocchi">
+                                    <FaGithub className="icons" />
+                                </a>
+                                <a href="/">
+                                    <FaLink className="icons" />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="card h-40 w-25" id="card-inside">
+                        <img className="card-img-top" src="/" alt="..." />
+                        <div className="card-body">
+                            <h5 className="card-title">Stephanie Cueto</h5>
+                            <br />
+                            <div className="container" id="social">
+                                <a href="https://www.linkedin.com/in/stephanie-cueto/">
+                                    <FaLinkedin className="icons" />
+                                </a>
+                                <a href="https://github.com/sxcueto">
+                                    <FaGithub className="icons" />
+                                </a>
+                                <a href="/">
+                                    <FaLink className="icons" />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="card h-40 w-25" id="card-inside">
+                        <img className="card-img-top" src="/" alt="..." />
+                        <div className="card-body">
+                            <h5 className="card-title">Robert Head</h5>
+                            <br />
+                            <div className="container" id="social">
+                                <a href="/">
+                                    <FaLinkedin className="icons" />
+                                </a>
+                                <a href="https://github.com/PinusStrobus77">
+                                    <FaGithub className="icons" />
+                                </a>
+                                <a href="/">
+                                    <FaLink className="icons" />
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div className="card h-40 w-25" id="card-inside">
-                    <img className="card-img-top" src="/" alt="..." />
-                    <div className="card-body">
-                        <h5 className="card-title">Stephanie Cueto</h5>
-                        <br />
-                        <div className="container" id="social">
-                            <a href="https://www.linkedin.com/in/stephanie-cueto/">
-                                <FaLinkedin className="icons" />
-                            </a>
-                            <a href="https://github.com/sxcueto">
-                                <FaGithub className="icons" />
-                            </a>
-                            <FaLink />
+            </section>
 
-                        </div>
-                    </div>
-                </div>
-
-                <div className="card h-40 w-25" id="card-inside">
-                    <img className="card-img-top" src="/" alt="..." />
-                    <div className="card-body">
-                        <h5 className="card-title">Robert Head</h5>
-                        <br />
-                        <div className="container" id="social">
-                            <FaLinkedin className="icons" />
-                            <a href="https://github.com/PinusStrobus77">
-                                <FaGithub className="icons" />
-                            </a>
-                            <FaLink />
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <br />
-        <br />
+            <br />
+            <br />
 
 
-    </div>
-)
+        </div>
+    )
 }
 
 export default About;
