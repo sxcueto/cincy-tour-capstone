@@ -1,3 +1,5 @@
+//worked on styling modal box and the icons in the generator
+
 import React, { useState } from "react";
 import { FaDiceD20 } from 'react-icons/fa'
 import Modal from "react-bootstrap/Modal";
@@ -31,17 +33,13 @@ const FunFact = () => {
     setShow(true);
   }
   
-  return (
   
   return (
   <div>
     <Button variant="primary" onClick={handleShow}>
       <FaDiceD20 />
     </Button>
-    <Modal id="modal-box"show={show} onHide={handleClose}>
-      <Modal.Header className="text-right">
-        <Button variant="tertiary" id="x-button" onClick={handleClose}>X</Button>
-      </Modal.Header>
+ 
     <Modal id="modal-box"show={show} onHide={handleClose}>
       <Modal.Header className="text-right">
         <Button variant="tertiary" id="x-button" onClick={handleClose}>X</Button>
@@ -53,12 +51,12 @@ const FunFact = () => {
           <FaDiceD20 />
         </Button>
         </div>
-        </div>
+     
       </Modal.Footer>
     </Modal>
   </div>
   )
-  )
+  
 }
 
 export default FunFact;
