@@ -23,7 +23,7 @@ app.use('/family', familyRouter)
 app.use('/food', foodRouter)
 app.use('/history', historyRouter)
 app.use('/outdoors', outdoorsRouter)
-app.use('/sports'. sportsRouter)
+app.use('/sports', sportsRouter)
 // Start the server
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);

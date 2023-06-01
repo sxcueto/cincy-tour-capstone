@@ -1,6 +1,6 @@
 import React from "react";
-import { FaArrowDown, FaArrowUp, FaLinkedin, FaLink, FaGithub, FaDiceD20 } from 'react-icons/fa';
-import Button from 'react-bootstrap/Button';
+import { FaArrowDown, FaArrowUp, FaLinkedin, FaLink, FaGithub } from 'react-icons/fa';
+import FunFact from './FunFact';
 
 const About = () =>{
 return (
@@ -16,31 +16,17 @@ return (
                     <a href="/about#section-two">
                         <FaArrowDown className="icons" />
                     </a>
-                </div>
-            </header>
-        </section>
-        <br />
-        { /* section two: info about Cincy */}
-        <section id="section-two">
-            <div className="container-fluid text-center" id="content-two">
-                <a href="/about#section-one">
-                    <FaArrowUp className="icons"/>
-                </a>
-                <br /> <br />
-                {/* <h3>Cincinnati</h3> */}
-                <p>Known for it's spaghetti chili, flying pigs, and world-famous hippos, Cincinnati is the place to be to experience a variety of cultures, art, food, and history. Click the dice below to learn some fun facts about our city. </p>
-                <br />
-                {/* {/* dice for fun fact generator will go here (add sound effect?)  */}
-                {/* <div>
-                 
-                    <button onClick={newFact}><FaDiceD20 /></button>
-                    <div id="factDisplay">{displayedFact}</div>
-                </div> <br /> */}
-
+                    <br /> <br />
+                    {/* <h3>Cincinnati</h3> */}
+                    <p>Known for it's spaghetti chili, flying pigs, and world-famous hippos, Cincinnati is the place to be to experience a variety of cultures, art, food, and history. Click the dice below to learn some fun facts about our city. </p>
+                    <br />
+                    {/* dice for fun fact generator*/}
+                    <div><FunFact /></div>
                     <a href="/about#section-three">
                         <FaArrowDown className="icons" />
                     </a>
                 </div>
+                </header>
             </section>
             <br /> <br /> <br />
 
