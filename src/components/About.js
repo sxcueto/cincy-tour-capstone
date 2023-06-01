@@ -1,6 +1,7 @@
 import React from "react";
 import { FaArrowDown, FaArrowUp, FaLinkedin, FaLink, FaGithub } from 'react-icons/fa';
 import FunFact from './FunFact';
+import Button from 'react-bootstrap/Button';
 
 const About = () =>{
 return (
