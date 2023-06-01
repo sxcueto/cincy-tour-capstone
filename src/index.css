@@ -61,6 +61,7 @@ body {
 }
 .card {
   background-color: #000;
+
 }
 
 hr {
@@ -285,7 +286,7 @@ a>code {
 }
 
 /* about page */
-#jumbo{
+#about{
   background-size: cover;
   background: url("https://drive.google.com/uc?export=view&id=1VfJ5om5sKDoydJs7hNBPHR0p6dSTOQxu") no-repeat;
   height: 100vh;
@@ -294,6 +295,20 @@ a>code {
 
 
 #about-header {
+  font-weight: 400px;
+  text-align: center;
+  margin: auto;
+  padding: 200px 200px 150px 200px;
+}
+#contact{
+  background-size: cover;
+  background: url("https://drive.google.com/uc?export=view&id=1w8FXjJMLBtXnyii6Ckg1DYh0rYh9EKeC") no-repeat;
+  height: 100vh;
+  padding: 5em inherit;
+}
+
+
+#contact-header {
   font-weight: 400px;
   text-align: center;
   margin: auto;

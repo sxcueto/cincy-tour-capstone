@@ -7,7 +7,7 @@ return (
     <div>
         {/* //section one "about" landing page */}
         <section id="section-one">
-            <header className="container-fluid" id="jumbo">
+            <header className="container-fluid" id="about">
                 <div className="container-fluid text-center text-black">
                     <br />
                     <h1 className="display-3" id="about-header"></h1>
@@ -46,37 +46,41 @@ return (
 
             {/* //section three: info about group */}
             <section id="section-three">
-                <div className="row row-cols-sm g-0 container-fluid text-center" id="card-group">
+                <div className="container-fluid text-center" id="card-group">
+                <div className="row"><div className="col-12 text-center">
                     <a href="/about#section-two">
                         <FaArrowUp className="icons" />
                     </a>
                     <h2 className="team-header">Capstone Team</h2>
-                    <br />
-                    <div className="card h-40 w-25" id="card-inside">
-                        <img className="card-img-top" src="/" alt="..." />
+                    <br /></div></div><div className="row">
+                    <div className="col-lg-3"></div>
+                    <div className="col-lg-2">
+                    <div className="card" id="card-inside">
+                        <img className="card-img-top img-fluid" src="https://drive.google.com/uc?export=view&id=1yiMe4SE_qay6ZMM0NINVa2OAFqp8HjpQ" alt="Eliane Bettocchi" />
                         <div className="card-body">
                             <h5 className="card-title">Eliane Bettocchi</h5>
                             <br />
                             <div className="container" id="social">
-                                <a href="https://www.linkedin.com/in/lilith/">
+                                <a href="https://www.linkedin.com/in/lilith/" target="_blank">
                                     <FaLinkedin className="icons" />
                                 </a>
-                                <a href="https://github.com/elianebettocchi">
+                                <a href="https://github.com/elianebettocchi" target="_blank">
                                     <FaGithub className="icons" />
                                 </a>
-                                <a href="/">
+                                <a href="https://elianebettocchi.github.io/portfolio/" target="_blank">
                                     <FaLink className="icons" />
                                 </a>
                             </div>
                         </div>
-                    </div>
-                    <div className="card h-40 w-25" id="card-inside">
-                        <img className="card-img-top" src="/" alt="..." />
+                    </div></div>
+                    <div className="col-lg-2">
+                    <div className="card" id="card-inside">
+                        <img className="card-img-top img-fluid" src="/" alt="..." />
                         <div className="card-body">
                             <h5 className="card-title">Stephanie Cueto</h5>
                             <br />
                             <div className="container" id="social">
-                                <a href="https://www.linkedin.com/in/stephanie-cueto/">
+                                <a href="https://www.linkedin.com/in/stephanie-cueto/" target="_blank">
                                     <FaLinkedin className="icons" />
                                 </a>
                                 <a href="https://github.com/sxcueto">
@@ -87,10 +91,10 @@ return (
                                 </a>
                             </div>
                         </div>
-                    </div>
-
-                    <div className="card h-40 w-25" id="card-inside">
-                        <img className="card-img-top" src="/" alt="..." />
+                    </div></div>
+                    <div className="col-lg-2">
+                    <div className="card" id="card-inside">
+                        <img className="card-img-top img-fluid" src="/" alt="..." />
                         <div className="card-body">
                             <h5 className="card-title">Robert Head</h5>
                             <br />
@@ -98,7 +102,7 @@ return (
                                 <a href="/">
                                     <FaLinkedin className="icons" />
                                 </a>
-                                <a href="https://github.com/PinusStrobus77">
+                                <a href="https://github.com/PinusStrobus77" target="_blank">
                                     <FaGithub className="icons" />
                                 </a>
                                 <a href="/">
@@ -107,7 +111,7 @@ return (
                             </div>
                         </div>
                     </div>
-                </div>
+                </div></div></div>
             </section>
 
             <br />
