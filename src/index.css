@@ -375,6 +375,13 @@ a>code {
   color: #66CCCC;
 }
 
+<<<<<<< HEAD
+=======
+.icons:hover{
+  color: white;
+}
+
+>>>>>>> 73fce5e (push for generator)
 .team-header {
   padding-bottom: 25px;
   padding-top: 25px;
@@ -388,21 +395,64 @@ a>code {
 }
 
 .modal-body {
+<<<<<<< HEAD
   color: #000;
 }
 
+=======
+  color: black;
+ 
+}
+
+
+>>>>>>> 73fce5e (push for generator)
 #x-button {
   display: inline-block;
   padding: 8px 16px;
   vertical-align: middle;
   overflow: hidden;
   text-decoration: none;
+<<<<<<< HEAD
   color: inherit;
+=======
+  color: #878586;
+>>>>>>> 73fce5e (push for generator)
   background-color: inherit;
   white-space: nowrap;
   position: absolute;
   right: 0;
   top: 0
+<<<<<<< HEAD
+=======
+}
+
+#x-button:hover {
+  color: #66CCCC;
+}
+
+.btn-secondary{
+  background-color: black !important;
+  color: white !important;
+}
+
+.btn-secondary:hover{
+  background-color: black !important; 
+  color: #66CCCC !important;
+  border-color: inherit !important;
+
+}
+
+.btn-primary{
+  background-color: white !important;
+  border-color: white !important; 
+  color: #000 !important;
+}
+
+.btn-primary:hover{
+  background-color: black !important;
+  color: #66CCCC !important;
+  border-color: inherit !important;
+>>>>>>> 73fce5e (push for generator)
 }
 
 /* Contact Page */
