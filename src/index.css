@@ -306,9 +306,8 @@ a>code {
   background-size: cover;
   background: url("https://drive.google.com/uc?export=view&id=1VfJ5om5sKDoydJs7hNBPHR0p6dSTOQxu") no-repeat;
   height: 100vh;
-  /* padding: 5em inherit; */
+  padding: 5em inherit;
 }
-
 
 #about-header {
   font-weight: 400px;
@@ -331,11 +330,11 @@ a>code {
   padding: 200px 200px 150px 200px;
 }
 
-/* #content-two {
+#content-two {
   width: 400px;
   margin: 0 auto;
 
-} */
+}
 
 #card-group {
   justify-content: space-evenly;
@@ -352,25 +351,10 @@ a>code {
   display: inline-flex;
 }
 
-.scroll-container {
-  height: 100vh;
-  overflow-y: scroll;
-  scroll-snap-type: y mandatory;
-}
-
-#section-one,
-#section-two,
-#section-three {
+#section-one, #section-two, #section-three{
   box-sizing: border-box;
-  height: 100vh;
-  scroll-snap-align: center;
-  padding: 1rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
-
-/* #section-two, #section-three{
+#section-two, #section-three{
   height:100%;
   width:100%;
   display: block;
@@ -380,11 +364,12 @@ a>code {
 #section-two{
   padding-top: 150px;
   padding-bottom: 200px;
+
 }
  #section-three{
   padding-top: 120px;
   padding-bottom: 50px;
-} */
+}
 
 .icons {
   color: #66CCCC;

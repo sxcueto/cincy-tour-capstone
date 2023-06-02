@@ -1,8 +1,7 @@
 import React from "react";
 import { FaArrowDown, FaArrowUp, FaLinkedin, FaLink, FaGithub } from 'react-icons/fa';
 import FunFact from './FunFact';
-import Button from  'react-bootstrap/Button';
-
+import Button from "react-bootstrap/esm/Button";
 const About = () =>{
 return (
     <div>
@@ -17,8 +16,17 @@ return (
                     <a href="/about#section-two">
                         <FaArrowDown className="icons" />
                     </a>
+                    </div>
+                    </header>
+                    </section>
                     <br /> <br />
-                    {/* <h3>Cincinnati</h3> */}
+
+            {/* section two about Cincinnati */}
+        <section id="section-two">
+        <div className="container-fluid text-center">
+                <a href="/about#section-one">
+                    <FaArrowUp className="icons" />
+                    </a>
                     <p>Known for it's spaghetti chili, flying pigs, and world-famous hippos, Cincinnati is the place to be to experience a variety of cultures, art, food, and history. Click the dice below to learn some fun facts about our city. </p>
                     <br />
                     {/* dice for fun fact generator*/}
@@ -27,7 +35,6 @@ return (
                         <FaArrowDown className="icons" />
                     </a>
                 </div>
-                </header>
             </section>
             <br /> <br /> <br />
 
@@ -70,10 +77,10 @@ return (
                                 <a href="https://www.linkedin.com/in/stephanie-cueto/" target="_blank">
                                     <FaLinkedin className="icons" />
                                 </a>
-                                <a href="https://github.com/sxcueto">
+                                <a href="https://github.com/sxcueto" target="_blank">
                                     <FaGithub className="icons" />
                                 </a>
-                                <a href="/">
+                                <a href="https://github.com/sxcueto/portfolio2" target="blank">
                                     <FaLink className="icons" />
                                 </a>
                             </div>
