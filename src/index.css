@@ -303,9 +303,8 @@ a>code {
 
 /* about page */
 #about {
-  background: url("https://drive.google.com/uc?export=view&id=1VfJ5om5sKDoydJs7hNBPHR0p6dSTOQxu");
+  background: url("https://drive.google.com/uc?export=view&id=1VfJ5om5sKDoydJs7hNBPHR0p6dSTOQxu") ;
   height: 100vh;
-  padding-left: 30px;
 }
 
 /* paragraph in section two */
