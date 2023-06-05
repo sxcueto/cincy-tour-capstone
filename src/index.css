@@ -303,16 +303,10 @@ a>code {
 
 /* about page */
 #about {
-  background: url("https://drive.google.com/uc?export=view&id=1VfJ5om5sKDoydJs7hNBPHR0p6dSTOQxu") no-repeat;
+  background: url("https://drive.google.com/uc?export=view&id=1VfJ5om5sKDoydJs7hNBPHR0p6dSTOQxu");
   height: 100vh;
-  padding: 5em inherit;
+  padding-left: 30px;
 }
-
-/* section one icons */
-#first-icons {
-  padding-top: 300px;
-}
-
 
 /* paragraph in section two */
 #content-two {
@@ -336,6 +330,12 @@ a>code {
   display: inline-flex;
 }
 
+.team-header {
+  padding-bottom: 10px;
+  padding-top: 20px;
+
+}
+
 #section-one,
 #section-two,
 #section-three {
@@ -352,18 +352,17 @@ a>code {
   padding-right: auto;
 }
 
-
 #section-two {
   padding-top: 125px;
   padding-bottom: 125px;
-
 }
 
- #section-three {
-  padding-top: 25px;
+#section-three {
+  padding-top: 45px;
   padding-bottom: 50px;
 }
 
+/* icon styling */
 .icons {
   color: #66CCCC;
   font-weight: 600;
@@ -373,14 +372,15 @@ a>code {
 .icons:hover {
   color: white;
 }
-#dice{
+
+#first-icons {
+  padding-top: 500px;
+}
+
+#dice {
   padding-bottom: 5px;
 }
-.team-header {
-  padding-bottom: 10px;
-  padding-top: 25px;
 
-}
 
 /* Fun Fact generator */
 #modal-box {

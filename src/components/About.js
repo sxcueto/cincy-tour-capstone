@@ -7,7 +7,7 @@ return (
     <div>
         {/* //section one "about" landing page */}
         <section id="section-one">
-            <header className="container-fluid px-4 px-lg-5 h-80 text-center" id="about">
+            <header className="container-fluid " id="about">
                 <div className="container-fluid text-center">
                     <div className="display-7" id="first-icons">
                     <a href="https://www.artworkscincinnati.org/mural/the-hands-that-built-our-city/" target="_blank" rel="noopener noreferrer"><Button variant="info"><i className="bi bi-info-lg"></i></Button></a>
