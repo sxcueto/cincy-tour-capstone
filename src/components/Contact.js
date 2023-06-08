@@ -95,7 +95,7 @@ const Contact = () => {
               <div className="card-body">
                 <h5 className="card-title">{attraction.name}</h5>
                 <p className="card-text">{attraction.description}</p>
-                <p className="card-text">{attraction.website}</p>
+                <p><a href={attraction.website}>Their Website</a></p>
                 </div>
                 {/* Render other attraction details here */}
               </div>
