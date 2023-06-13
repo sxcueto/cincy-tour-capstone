@@ -68,24 +68,16 @@ const FoodDrink = () => {
         <Dropdown.Item href="https://madtree.com/" target="_blank">MadTree</Dropdown.Item>
         <Dropdown.Item href="https://www.bobevans.com/" target="_blank">Bob Evans</Dropdown.Item>
         <Dropdown.Item href="https://www.findlaymarket.org/" target="_blank">Findlay Market</Dropdown.Item>
-        <Dropdown.Item href="https://www.alabama-q.com/" target="_blank">Alabama Que's</Dropdown.Item>
         <Dropdown.Item href="https://braxtonbrewing.com/" target="_blank">Braxton Brewing Company</Dropdown.Item>
         <Dropdown.Item href="https://brewingheritagetrail.org/" target="_blank">Brewing Heritage Trail</Dropdown.Item>
         <Dropdown.Item href="https://junglejims.com/" target="_blank">Jungle Jim's</Dropdown.Item>
-        <Dropdown.Item href="https://sweetsandmeatsbbq.com/" target="_blank">Sweets & Meats BBQ</Dropdown.Item>
+        <Dropdown.Item href="https://www.eatdrinknada.com/" target="_blank">Nada</Dropdown.Item>
         <Dropdown.Item href="https://www.sottocincinnati.com/" target="_blank">Sotto</Dropdown.Item>
         <Dropdown.Item href="https://www.eaglerestaurant.com/" target="_blank">The Eagle</Dropdown.Item>
         <Dropdown.Item href="https://authenticwaffle.com/" target="_blank">Taste of Belgium</Dropdown.Item>
         <Dropdown.Item href="https://taftsbeer.com/" target="_blank">Taft's Ale House</Dropdown.Item>
         <Dropdown.Item href="https://www.meltingpot.com/cincinnati-oh/" target="_blank">The Melting Pot</Dropdown.Item>
-        <Dropdown.Item href="https://noliakitchen.com/" target="_blank">Nolia Kitchen</Dropdown.Item>
-        <Dropdown.Item href="https://www.islandfrydays.com/" target="_blank">Island Frydays</Dropdown.Item>
-        <Dropdown.Item href="https://www.kjseafood.com/" target="_blank">K&J Seafood Co</Dropdown.Item>
-        <Dropdown.Item href="https://www.facebook.com/OlliesTrolleyCincinnati/" target="_blank">Ollie's Trolley</Dropdown.Item>
-        <Dropdown.Item href="https://www.sugarcincinnati.com/" target="_blank">Sugar</Dropdown.Item>
-        <Dropdown.Item href="https://www.sweetpetitdesserts.com/" target="_blank">Sweet Petit Desserts</Dropdown.Item>
-        <Dropdown.Item href="https://www.thecinemaotr.com/" target="_blank">Cinema</Dropdown.Item>
-        <Dropdown.Item href="https://nostalgiaotr.com/" target="_blank">Nostalgia Wine and Jazz Lounge</Dropdown.Item>
+        <Dropdown.Item href="https://www.bloomsandberries.com/" target="_blank">Blooms & Berries Farm Market</Dropdown.Item>
         <Dropdown.Item href="https://www.sleepybeecafe.com/" target="_blank">Sleepy Bee Cafe</Dropdown.Item>
         <Dropdown.Item href="https://www.visitcincy.com/" target="_blank">More options at Visit Cincy</Dropdown.Item>
       </Dropdown.Menu>

@@ -72,11 +72,10 @@ const Outdoors = () => {
         <Dropdown.Item href="https://www.greatparks.org/" target="_blank">Great Parks of Hamilton County</Dropdown.Item>
         <Dropdown.Item href="https://www.cincynature.org/" target="_blank">Cincinnati Nature Center</Dropdown.Item>
         <Dropdown.Item href="https://www.aultparkac.org/" target="_blank">Ault Park</Dropdown.Item>
-        <Dropdown.Item href="http://www.astonoaksgolfclub.com/" target="_blank">Aston Oaks Golf Club</Dropdown.Item>
-        <Dropdown.Item href="https://kenwoodcc.com/" target="_blank">Kenwood Country Club</Dropdown.Item>
-        <Dropdown.Item href="https://www.ohioriverpaddlefest.org/" target="_blank">Ohio River Paddlefest</Dropdown.Item>
+       <Dropdown.Item href="https://www.ohioriverpaddlefest.org/" target="_blank">Ohio River Paddlefest</Dropdown.Item>
         <Dropdown.Item href="https://perfectnorth.com/" target="_blank">Perfect North Slopes</Dropdown.Item>
         <Dropdown.Item href="https://myfountainsquare.com/" target="_blank">Fountain Square</Dropdown.Item>
+        <Dropdown.Item href="https://www.springgrove.org/locations/spring-grove-cemetery-arboretum/" target="_blank">Spring Grove Cemetery & Arboretum</Dropdown.Item>
         <Dropdown.Item href="https://www.visitcincy.com/" target="_blank">More options at Visit Cincy</Dropdown.Item>
       </Dropdown.Menu>
     </Dropdown>
